@@ -36,10 +36,8 @@ const About = () => {
         variants={fadeIn('', '' , 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         A dynamic professional with a multifaceted skill set that seamlessly blends 
+         the realms of web development, digital marketing, and an exciting foray into React Native app development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
