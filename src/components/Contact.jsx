@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { slideIn } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 const Contact = () => {
   const formRef = useRef();
@@ -59,4 +60,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default SectionWrapper(Contact, 'contact')
