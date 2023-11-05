@@ -45,9 +45,14 @@ const Contact = () => {
             <span className='tex-white font-medium mb-4 mt-7'>Your name</span>
             <textarea 
               rows='7' name='message' value={form.message} onChange={handleChange}
-              className='bg-tertiary py-4 px-6 text-white font-medium'
+              className='bg-tertiary py-4 px-6 text-white font-medium outline-none'
             />
           </label>
+          <button 
+            type='submit'
+            className='bg-tertiary mt-10 py-3 px-8 w-fit font-bold shadow-primary outline-none shadow-md'
+          >Send</button>
+          
         </form>
       </motion.div>
     </div>

@@ -27,10 +27,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import callastyle from "./company/callastyle.png";
+import diversity from "./company/diversity.png";
+import byg from "./company/byg.png";
+import mo from "./company/mo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import technium from "./technium.png";
+import portfolio from "./portfolio.png";
+import stuffpulse from "./stuffpulse.png"
 
 export {
   letterg,
@@ -60,7 +67,14 @@ export {
   shopify,
   starbucks,
   tesla,
+  callastyle,
+  diversity,
+  byg,
+  mo,
   carrent,
+  technium,
+  portfolio,
+  stuffpulse,
   jobit,
   tripguide,
 };

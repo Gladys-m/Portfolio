@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion'
+import { fadeIn, textVariant } from '../utils/motion';
+import SectionWrapper from '../hoc';
+
 
 const ServiceCard = ({ index, title, icon}) => {
   return (
@@ -34,7 +36,7 @@ const About = () => {
       </motion.div>
       <motion.p 
         variants={fadeIn('', '' , 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
          A dynamic professional with a multifaceted skill set that seamlessly blends 
          the realms of web development, digital marketing, and an exciting foray into React Native app development.
@@ -49,4 +51,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, 'about')

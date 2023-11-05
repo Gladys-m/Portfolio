@@ -19,7 +19,14 @@ import {
     starbucks,
     tesla,
     shopify,
+    callastyle,
+    byg,
+    diversity,
+    mo,
     carrent,
+    portfolio,
+    stuffpulse,
+    technium,
     jobit,
     tripguide,
     threejs,
@@ -116,55 +123,52 @@ const technologies = [
   
 const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Digital Marketer",
+      company_name: "Callastyle",
+      icon: callastyle,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Oct 2023 - Current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducting in-depth research to understand the target audience, their preferences, and behavior, ensuring that marketing efforts align with customer needs.",
+        "Creating and curating engaging content, growing the company's social media presence, and fostering community engagement across platforms like Instagram, TikTok, and Facebook.",
+        "Developing and implementing effective online advertising campaigns, optimizing for various platforms like Google Ads and social media.",
+        "Regularly monitoring and analyzing digital marketing performance, identifying opportunities for improvement, and providing data-driven recommendations for optimizing campaigns and content.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Facebook Ads Manager",
+      company_name: "Beyondgoods",
+      icon: byg,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sept 2022 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Develop and execute Facebook advertising campaigns to meet specific marketing objectives and target audiences effectively.",
+        "Create compelling ad creatives, test and refine ad copy and visuals, and continuously optimize ad performance to achieve desired results.",
+        "Analyze campaign performance metrics, provide insights, and generate regular reports to inform decision-making and refine ad strategies.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "IT Support Intern",
+      company_name: "Diversity Microcredit Ltd",
+      icon: diversity,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2021 - Aug 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Monitored and maintained the organization's computer systems, ensuring seamless operations.",
+        "Worked with the consumer relations and IT team to identify and implement software and system improvements, enhancing overall efficiency.",
+        "Managed the company's online presence, including social media accounts and website updates, fostering digital engagement",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Social Media Manager",
+      company_name: "MO & Beyond ltd",
+      icon: mo,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Feb 2020 - June 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Strategically aligned social media marketing strategies to effectively promote and enhance product marketing initiatives.",
+        "Developed engaging visual content, videos, and compelling copywriting, resulting in a significant increase in consumer engagement.",
+        "Applied search analytics insights to refine content strategies on Facebook and Instagram, consistently improving performance metrics.",
       ],
     },
 ];
@@ -198,58 +202,12 @@ const testimonials = [
   
 const projects = [
     {
-      name: "Car Rent",
+      name: "Technium",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that helps brand grow bt providing services such as UX design, Web development and Socoal Media Maketing.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
@@ -257,7 +215,49 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: technium,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "Web application that talks about my experiences and projects as a web developer.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framer",
+          color: "green-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "StuffPulse",
+      description:
+        "A web apllication that allows employees to create, edit and delete details such as username and ID.",
+      tags: [
+        {
+          name: "flask",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stuffpulse,
       source_code_link: "https://github.com/",
     },
 ];

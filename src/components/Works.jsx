@@ -52,10 +52,10 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl'
+          className='mt-3 text-secondary text-[17px] max-w-4xl'
         >
           The following are some of my completed projects using
-          technologies such as react, react native and Django
+          technologies such as HTML, CSS, React, and Flask
         </motion.p>
       </div>
 
